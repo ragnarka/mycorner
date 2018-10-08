@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCorner.Data", "MyCorner.Data\MyCorner.Data.csproj", "{E317FD8D-16AA-4584-90CD-4FC036D4C9E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCorner.WebAPI", "MyCorner.WebAPI\MyCorner.WebAPI.csproj", "{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E317FD8D-16AA-4584-90CD-4FC036D4C9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E317FD8D-16AA-4584-90CD-4FC036D4C9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E317FD8D-16AA-4584-90CD-4FC036D4C9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E317FD8D-16AA-4584-90CD-4FC036D4C9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
