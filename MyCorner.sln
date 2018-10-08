@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCorner.Data", "MyCorner.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCorner.WebAPI", "MyCorner.WebAPI\MyCorner.WebAPI.csproj", "{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCorner.Web", "MyCorner.Web\MyCorner.Web.csproj", "{50A9BC6F-1A2E-41D9-976D-D3533920D98E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D917A341-D0C3-4C4C-8D1B-8372F5DFC200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A9BC6F-1A2E-41D9-976D-D3533920D98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A9BC6F-1A2E-41D9-976D-D3533920D98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A9BC6F-1A2E-41D9-976D-D3533920D98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A9BC6F-1A2E-41D9-976D-D3533920D98E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
