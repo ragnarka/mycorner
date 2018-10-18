@@ -14,7 +14,7 @@ namespace MyCorner.WebAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value2", "value3" };
         }
 
         // GET api/values/5
@@ -22,6 +22,13 @@ namespace MyCorner.WebAPI.Controllers
         public ActionResult<string> Get(int id)
         {
             return "value";
+        }
+
+        [HttpGet]
+        [Route("api/[controller]/Test")]
+        public ActionResult<string> Test()
+        {
+            return "Test string";
         }
 
         // POST api/values
